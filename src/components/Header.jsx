@@ -65,7 +65,7 @@ function Header() {
       {/* SLIDER */}
       <div
         className={`absolute h-screen w-full top-0 left-0 right-0 bottom-0 backdrop-blur-xl bg-black/1 transition-all duration-500 ${
-          !slider ? '-translate-x-[500px]' : 'translate-x-0'
+          !slider ? '-translate-x-[2000px]' : 'translate-x-0'
         }`}
       >
         <div className="absolute h-screen w-2/3 bg-gray-500 left-0 top-0 md:hidden">
