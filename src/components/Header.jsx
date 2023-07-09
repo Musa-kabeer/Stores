@@ -54,11 +54,11 @@ function Header() {
           <i className="fa-solid fa-user"></i>
         </div>
 
-        <div
-          className="bg-gray-100 w-8 h-8 md:w-6 rounded-full flex items-center justify-center md:hidden"
-          onClick={handleSliderOut}
-        >
-          <i className="fa-solid fa-grip-lines"></i>
+        <div className="bg-gray-100 w-8 h-8 md:w-6 rounded-full flex items-center justify-center md:hidden">
+          <i
+            className="fa-solid fa-grip-lines"
+            onClick={handleSliderOut}
+          ></i>
         </div>
       </div>
 
