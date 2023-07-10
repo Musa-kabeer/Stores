@@ -16,7 +16,7 @@ function Header() {
   }
 
   return (
-    <header className="relative flex justify-between items-center h-[70px] px-3 bg-gray-300">
+    <header className="relative flex justify-between items-center h-[70px] px-3 bg-stone-300">
       <Logo />
 
       {/* NAVBAR */}

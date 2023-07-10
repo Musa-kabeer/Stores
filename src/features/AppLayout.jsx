@@ -1,10 +1,10 @@
 import { Outlet } from 'react-router';
 import Header from './Header/Header';
-import Footer from './Footer';
+import Footer from './footer/Footer';
 
 function AppLayout() {
   return (
-    <div className="bg-yellow-50 grid grid-rows-[auto_1fr_auto] h-full">
+    <div className="bg-stone-100 grid h-full">
       <Header />
 
       <main className="h-full">

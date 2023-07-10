@@ -2,14 +2,14 @@
 
 function Icons({ onSliderOut }) {
   return (
-    <div className="flex items-center gap-6 text-gray-700 text-xl cursor-pointer">
+    <div className="flex items-center gap-4 text-gray-700 text-base cursor-pointer">
       <div className="cursor-pointer">
         <i className="fa-solid fa-magnifying-glass"></i>
       </div>
 
       <div className="relative cursor-pointer">
         <i className="fa-solid fa-cart-shopping"></i>
-        <span className="absolute -top-2 -right-[5px] text-xs flex justify-center items-center bg-red-400 w-[20px] h-[20px] rounded-full md:w-[15px] md:h-[15px] md:-top-1">
+        <span className="absolute -top-1 -right-[5px] text-[9px] flex justify-center items-center text-gray-50 bg-stone-400 w-[14px] h-[14px] rounded-full md:w-[15px] md:h-[15px] md:-top-1">
           1
         </span>
       </div>
