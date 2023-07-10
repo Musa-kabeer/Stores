@@ -2,8 +2,8 @@ import {
   RouterProvider,
   createBrowserRouter,
 } from 'react-router-dom';
-import AppLayout from './components/AppLayout';
-import Error from './components/Error';
+import AppLayout from './features/AppLayout';
+import Error from './features/Error';
 import Home from './pages/Home';
 
 function App() {
