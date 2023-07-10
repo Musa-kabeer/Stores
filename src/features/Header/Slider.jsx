@@ -3,7 +3,7 @@
 function Slider({ slider, onSliderIn }) {
   return (
     <div
-      className={`md:hidden absolute h-screen w-full top-0 left-0 right-0 bottom-0 backdrop-blur-xl bg-black/1 transition-all duration-500 ${
+      className={`md:hidden absolute h-screen w-full top-0 left-0 z-50 right-0 bottom-0 backdrop-blur-xl bg-black/1 transition-all duration-500 ${
         !slider ? '-translate-x-[2000px]' : 'translate-x-0'
       }`}
     >
