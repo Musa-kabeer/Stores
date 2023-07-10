@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="px-2">
+    <div className="px-3 md:px-5">
       <div className="w-full">
         {/* FORM */}
         <form className="relative w-full flex items-center px-1 sm:w-7/12 sm:m-auto py-4 md:w-80">
@@ -16,8 +16,8 @@ function Home() {
         <hr />
 
         {/* PRODUCTS */}
-        <div className="px-1 py-3 sm:px-2 md:px-4">
-          <div className="flex justify-between items-center">
+        <div className="">
+          <div className="flex justify-between items-center py-3">
             <label className="font-bold md:text-xl ld:text-2xl">
               Recommended
             </label>
@@ -27,6 +27,8 @@ function Home() {
               <option value="oldest">oldest</option>
             </select>
           </div>
+
+          <hr />
 
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 py-3 md:grid-cols-4 lg:grid-cols-5">
             <div className="h-full bg-gray-50 rounded-md">
